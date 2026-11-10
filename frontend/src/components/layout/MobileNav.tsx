@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard,
   CheckSquare,
+  ListTodo,
   CheckCircle2,
   BarChart3,
   Settings,
@@ -36,6 +37,12 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
       href: '/tasks',
       icon: CheckSquare,
       active: pathname === '/tasks',
+    },
+    {
+      name: 'My Tasks',
+      href: '/my-tasks',
+      icon: ListTodo,
+      active: pathname === '/my-tasks',
     },
     {
       name: 'Completed',

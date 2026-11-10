@@ -18,6 +18,8 @@ export function TopNav({ onOpenMobileMenu }: TopNavProps) {
         return 'Overview';
       case '/tasks':
         return 'All Tasks';
+      case '/my-tasks':
+        return 'My Tasks';
       case '/completed':
         return 'Completed Tasks';
       case '/analytics':
