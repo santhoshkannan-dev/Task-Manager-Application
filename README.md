@@ -181,3 +181,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **SQL Injection Prevention**: 100% of SQL queries use parameterized arguments (`$1`, `$2`, etc.).
 - **Strict Validation**: Both client-side (Zod) and server-side validators reject invalid inputs and priority values.
 - **Production-Safe Error Handling**: Internal database stack traces are sanitized before sending responses to clients.
+

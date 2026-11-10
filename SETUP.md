@@ -162,3 +162,4 @@ Ensure you have the following installed on your operating system:
 ### Issue: Frontend fails to fetch tasks ("Failed to fetch")
 - **Cause**: The backend server is not running or CORS is misconfigured.
 - **Solution**: Ensure the Express backend is running on port 5000 by navigating to `http://localhost:5000/api/health` in your browser. Verify `CLIENT_URL=http://localhost:3000` is present in `backend/.env`.
+
